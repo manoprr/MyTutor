@@ -26,9 +26,6 @@ public class StudentPagerAdepter extends FragmentStatePagerAdapter{
             case 0:
                 TablayoutProfileFragment tablayoutProfileFragment = new TablayoutProfileFragment();
                 return tablayoutProfileFragment;
-            case 1:
-                TablayoutMycourseFragment tablayoutMycourseFragment = new TablayoutMycourseFragment();
-                return tablayoutMycourseFragment;
             case 2:
                 TablayoutRecentFragment tablayoutRecentFragment = new TablayoutRecentFragment();
                 return tablayoutRecentFragment;

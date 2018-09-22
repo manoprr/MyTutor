@@ -5,4 +5,6 @@
     <dimen name="h1">24sp</dimen>
     <dimen name="m1">25dp</dimen>
     <dimen name="m2">10dp</dimen>
+    <dimen name="height_banner">200dp</dimen>
+    <dimen name="height_topcourse">120dp</dimen>
 </resources>

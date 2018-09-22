@@ -26,12 +26,13 @@
 
             <!--User-->
             <EditText
+                android:id="@+id/edtEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:background="@drawable/textfield_user"
                 android:hint="Username"
-                android:inputType="text"
+                android:inputType="textEmailAddress"
                 android:textColor="@color/colorWhite"
                 android:textColorHint="@color/colorWhite"
                 android:textSize="@dimen/h3" />
@@ -39,6 +40,7 @@
 
             <!--Password-->
             <EditText
+                android:id="@+id/edtPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
@@ -52,6 +54,7 @@
 
             <!--Sign In-->
             <Button
+                android:id="@+id/btnSignIn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"

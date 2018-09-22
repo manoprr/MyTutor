@@ -88,7 +88,7 @@ public class RegisterFragment extends Fragment{
                 emailString.isEmpty() || passwordString.isEmpty() ||
                 rePasswaordString.isEmpty()) {
 //            Have space
-            myAlert.normalDialog("Have Space","Please All Blank");
+            myAlert.normalDialog(getString(R.string.have_space),getString(R.string.message_space));
         } else if (idcardString.length() != 13) {
             myAlert.normalDialog("Id Card False",
                     "Please Fill ID Card 13 Digi");

@@ -48,9 +48,7 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.btnChat:
                             selectedFragment = new MainFragment();
                             break;
-                        case R.id.btnMyCourse:
-                            selectedFragment = new TablayoutMycourseFragment();
-                            break;
+
                         case R.id.btnRecent:
                             selectedFragment = new TablayoutRecentFragment();
                             break;

@@ -5,4 +5,6 @@
     <string name="mycourse_bar">My course</string>
     <string name="recent_bar">Recent</string>
     <string name="account_bar">Account</string>
+    <string name="have_space">Have Space</string>
+    <string name="message_space">Please All Blank</string>
 </resources>
