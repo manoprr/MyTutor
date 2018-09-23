@@ -6,4 +6,6 @@ public interface OnClickItem {
 
     public void onClickItem(View view, int i);
 
+
+
 }

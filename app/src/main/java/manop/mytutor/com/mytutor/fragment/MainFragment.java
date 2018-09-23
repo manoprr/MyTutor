@@ -90,6 +90,15 @@ public class MainFragment extends Fragment {
                     public void onClickItem(View view, int i) {
                         Log.d("22SepV1", "You click at position ==>" + i);
                         Log.d("22SepV1", "uid Click ==>" + uidStringArrayList.get(i));
+
+                        getActivity()
+                                .getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.contentMainFragment,
+                                        TeacherProfileFragment.teacherProfileInstance(uidStringArrayList.get(i)))
+                                .addToBackStack(null)
+                                .commit();
+
                     }
                 });
                 recyclerView.setAdapter(bannerAdepter);

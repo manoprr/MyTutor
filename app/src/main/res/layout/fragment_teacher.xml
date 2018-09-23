@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <!--User Profile-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#a6a5a5"
+            android:orientation="vertical">
+
+            <!--User Name-->
+            <TextView
+                android:id="@+id/txtNameTeacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="User Name"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <!--User Photo-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <!--Photo-->
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_gravity="left"
+                    android:id="@+id/imvTeacher"
+                    android:src="@drawable/student_image"
+                    android:layout_width="@dimen/avatar"
+                    android:layout_height="@dimen/avatar" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--Tab Data-->
+        <android.support.design.widget.TabLayout
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            android:id="@+id/tabLayoutTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPagerTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <!--Foot bar-->
+
+
+    </LinearLayout>
+    <!--Sign Out-->
+    <ImageView
+        android:id="@+id/imvSignOut"
+        android:layout_margin="@dimen/m1"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

@@ -7,4 +7,5 @@
     <dimen name="m2">10dp</dimen>
     <dimen name="height_banner">200dp</dimen>
     <dimen name="height_topcourse">120dp</dimen>
+    <dimen name="avatar">80dp</dimen>
 </resources>
